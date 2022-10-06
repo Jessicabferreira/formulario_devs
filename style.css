@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+main {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+    border-radius: 20px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 600px;
+}
+
+#titulo {  /* ID no style = # */
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(197, 104, 174);
+    margin-left: 7%; /* margem esquerda*/
+    text-align: center; /* texto no meio*/  
+    
+}
+
+#subtitulo {
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(197, 104, 174);
+    margin-left: 10%;
+    text-align: center;
+}
+    
+fieldset {
+    border:0;
+}
+
+body { /*background-color: #ffb6c1;*/
+    background-image:  linear-gradient(to bottom, #a14257b4 ,#ce6f84cc, #df8d91d8, #fabcbd, #e2a7adfa);
+    font-family: sans-serif;
+    font-size: 1em; /*tamanho da letra*/
+    color: rgb(179, 55, 162);
+    margin-top: 0.1%; /*espaço em cima para não ficar grudada no teto*/
+    justify-content: center; /* centralizado*/   
+}
+
+
+input, select, textarea, button {
+    border-radius: 5px; /*borda das caixas*/
+}
+
+.campo{ /* class no stylo . */
+    margin-bottom: 1em;
+}
+
+.campo label { 
+    margin-bottom: 0.5em;
+    color:rgb(179, 55, 162);
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 8em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid rgb(179, 55, 162);
+    box-shadow: 2px 2px 2px rgb(179, 55, 162);
+    display: block;
+}
+.campo select option {
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color: #E0E0F8;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: rgb(179, 55, 162);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 05px;
+    box-shadow:2px 2px 2px rgb(179, 55, 162);
+    text-shadow: 1px 1px 1px rgb(179, 55, 162);
+    position:relative;
+    top: 50%;
+    left: 30%;
+    transform: translate(50%, 50%)   
+}
+
+.botao:hover {
+    background-color: rgb(179, 55, 162);
+    box-shadow: inset 2px 2px 2px rgb(179, 55, 162);
+    text-shadow: none;
+}
+
+.botao, select {
+    cursos: pointer;
+}
+
+
+#check {
+display: inline-block;
+}
+
+#check2 {
+    color:rgb(179, 55, 162);
+    display: inline-block;
+}
+
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <article>
+            <div >
+                <h1 id="titulo"> <in><em>Cadastro para Desenvolvedores</em></in></h1><br><br>
+                <h3 id="subtitulo"> <in><em>Complete com suas informações</em></in></h3>
+                <br>
+                <br>
+                
+           </div>
+
+           <form>
+               <fieldset class="grupo">
+                   <div class="campo">
+                       <label for="nome"><strong>Nome</strong></label>
+                       <input type="text" name="nome" id="nome" required>
+                   </div>
+
+                   <div class="campo">
+                       <label for="sobrenome"><strong>Sobrenome</strong></label>
+                       <input type="text" name="sobrenome" id="sobrename" required>
+                  </div>   
+
+                  <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="text" name="email" id="email" required> 
+
+                </div>
+               </fieldset>
+                
+               <div class="campo">
+                <label><strong>De qual lado da aplicação você desenvolve?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Front-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Back-end   <!--type="radio" name="devweb" value="backend" são botoes com circulo-->
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Fullstack
+                </label>
+            </div>
+            <div class="campo">
+                <label for="senioridade"><strong>Senioridade</strong></label>
+                <select id="senioridade"> <!--campo para lista, seleção-->
+                <option selected disabled value="">Selecione</option> <!--opção da seleção,-->
+                <option>Junior</option>
+                <option>Pleno</option> <!--opção fica dentro do campo de seleção-->
+                <option>Senior</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <div id="check"> <!--checkbox ou check são campos quadrados que seleciona varia opção, tipo qual fruta prefere? uva, morango ou laranja-->
+                    <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia">HTML</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia">CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia">JavaScript</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                    <label for="tecnologia">PHP</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                    <label for="tecnologia">C#</label>
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                    <label for="tecnologia">Python</label>
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                    <label for="tecnologia">Java</label>    
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label><strong>Conte um pouco da sua experiência:</strong></label>
+                <textarea rows="8" style="width: 33em"  id="experiencia" nome="experiencia"></textarea> <!--textarea é uma caixa-->
+            </div>
+            
+            <div id="check2"> 
+                <br>
+                <label><strong>Qual tipo de oportunidade você prefere?</strong></label><br><br>
+                <input type="checkbox" id="presencial" name="presencial" value="presencial">
+                    <label for="presencial">Presencial</label><br><br>
+                    <input type="checkbox" id="remoto" name="remoto" value="remoto">
+                    <label for="remoto">Remoto</label>
+                
+            </div>
+            <br><br>
+            <button class="botao" type="sumit">Concluido</button> <!--botão/ sumit tipo que envia o formulario -->
+
+
+
+
+
+
+
+
+
+
+
+           </form>
+
+
+        </article>
+    </main>
+</body>
+</html>

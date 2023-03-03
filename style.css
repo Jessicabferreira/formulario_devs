@@ -35,11 +35,12 @@ fieldset {
 }
 
 body { /*background-color: #ffb6c1;*/
-    background-image:  linear-gradient(to bottom, #a14257b4 ,#ce6f84cc, #df8d91d8, #fabcbd, #e2a7adfa);
+    background-color:  rgba(197, 104, 174, 0.836);
+
     font-family: sans-serif;
     font-size: 1em; /*tamanho da letra*/
-    color: rgb(179, 55, 162);
-    margin-top: 0.1%; /*espaço em cima para não ficar grudada no teto*/
+    color: rgba(179, 55, 162, 0.575);
+    margin-top: 0.5%; /*espaço em cima para não ficar grudada no teto*/
     justify-content: center; /* centralizado*/   
 }
 

@@ -17,7 +17,7 @@ main {
 
 #titulo {  /* ID no style = # */
     font-family: 'Fredericka the Great', cursive;
-    color: rgb(197, 104, 174);
+    color: #708090;
     margin-left: 7%; /* margem esquerda*/
     text-align: center; /* texto no meio*/  
     
@@ -25,7 +25,7 @@ main {
 
 #subtitulo {
     font-family: 'Fredericka the Great', cursive;
-    color: rgb(197, 104, 174);
+    color: #708090;
     margin-left: 10%;
     text-align: center;
 }
@@ -35,11 +35,11 @@ fieldset {
 }
 
 body { /*background-color: #ffb6c1;*/
-    background-color:  rgba(197, 104, 174, 0.836);
+    background-color:  #000;
 
     font-family: sans-serif;
     font-size: 1em; /*tamanho da letra*/
-    color: rgba(179, 55, 162, 0.575);
+    color: #708090;
     margin-top: 0.5%; /*espaço em cima para não ficar grudada no teto*/
     justify-content: center; /* centralizado*/   
 }
@@ -55,7 +55,7 @@ input, select, textarea, button {
 
 .campo label { 
     margin-bottom: 0.5em;
-    color:rgb(179, 55, 162);
+    color:#708090;
     display: block;
 }
 
@@ -66,8 +66,8 @@ fieldset.grupo .campo {
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
     padding: 0.2em;
-    border: 1px solid rgb(179, 55, 162);
-    box-shadow: 2px 2px 2px rgb(179, 55, 162);
+    border: 1px solid #BEBEBE;
+    box-shadow: 2px 2px 2px #708090;
     display: block;
 }
 .campo select option {
@@ -79,13 +79,13 @@ fieldset.grupo .campo {
 
 .botao {
     font-size: 1.2em;
-    background: rgb(179, 55, 162);
+    background: #708090;
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
     padding: 05px;
-    box-shadow:2px 2px 2px rgb(179, 55, 162);
-    text-shadow: 1px 1px 1px rgb(179, 55, 162);
+    box-shadow:2px 2px 2px #708090;
+    text-shadow: 1px 1px 1px #708090;
     position:relative;
     top: 50%;
     left: 30%;
@@ -93,8 +93,8 @@ fieldset.grupo .campo {
 }
 
 .botao:hover {
-    background-color: rgb(179, 55, 162);
-    box-shadow: inset 2px 2px 2px rgb(179, 55, 162);
+    background-color: #708090;
+    box-shadow: inset 2px 2px 2px #708090;
     text-shadow: none;
 }
 
@@ -108,7 +108,7 @@ display: inline-block;
 }
 
 #check2 {
-    color:rgb(179, 55, 162);
+    color:#708090;
     display: inline-block;
 }
 
